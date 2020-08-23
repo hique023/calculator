@@ -24,3 +24,19 @@
 @import "~@ionic/angular/css/text-alignment.css";
 @import "~@ionic/angular/css/text-transformation.css";
 @import "~@ionic/angular/css/flex-utils.css";
+
+.pag-title {
+    display: block;
+    margin: 2%;
+
+    font-size: x-large;
+    font-weight: 500;
+}
+
+.img-header {
+    height: 75px;
+}
+
+ion-button {
+    --border-radius: 10px;
+}
