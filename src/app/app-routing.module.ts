@@ -15,6 +15,10 @@ const routes: Routes = [
     path: 'sobre',
     loadChildren: () => import('./sobre/sobre.module').then( m => m.SobrePageModule)
   },
+  {
+    path: 'porcentagem',
+    loadChildren: () => import('./porcentagem/porcentagem.module').then( m => m.PorcentagemPageModule)
+  },
 ];
 
 @NgModule({
